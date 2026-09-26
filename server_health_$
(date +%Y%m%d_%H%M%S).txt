@@ -1,0 +1,33 @@
+
+  LINUX SERVER HEALTH REPORT
+
+
+----- DATE AND TIME -----
+Sat Sep 26 08:54:47 PM IST 2026
+
+----- HOSTNAME -----
+localhost.localdomain
+
+----- SYSTEM UPTIME AND CPU LOAD 
+-----
+ 20:54:47 up 1 day,  3:38,  2 users,  load average: 0.31, 0.22, 0.13
+
+----- MEMORY -----
+               total        used        free      shared  buff/cache   available
+Mem:           1.5Gi       1.2Gi        79Mi       4.0Mi       402Mi       308Mi
+Swap:          2.0Gi       719Mi       1.3Gi
+
+-----ROOT DISK SPACE -----
+Filesystem           Size  Used Avail Use% Mounted on
+/dev/mapper/ol-root   27G  8.0G   19G  30% /
+
+----- SSH SERVICE -----
+SSH service is active
+
+----- NETWORK ROUTE -----
+default via 10.0.2.2 dev enp0s3 proto dhcp src 10.0.2.15 metric 100 
+10.0.2.0/24 dev enp0s3 proto kernel scope link src 10.0.2.15 metric 100 
+
+
+  HEALTH CHECK COMPLETED
+
